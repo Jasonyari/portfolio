@@ -1,5 +1,83 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,600;1,700&family=Roboto+Slab:wght@100;300;400;500;600;700&display=swap');
+
+
+* {
     margin: 0;
-    background-color: pink;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Playfair Display;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+li {
+    list-style: none;
+    transition: all 0.4s;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-nav {
+    position: fixed;
+    display: flex;
+    padding: 2em 4em;
+    background: black;
+    width: 100%;
+}
+
+.main-nav .ul-second {
+    position: fixed;
+    display: flex;
+    right: 4em;
+}
+
+.main-nav .ul-second li {
+    margin-left: 1.5em;
+    
+}
+
+img {
+    position: relative;
+    top: 270px;
+    left: 250px;
+}
+
+h1, p {
+    position:absolute;
+    right: 300px;
+    bottom: 350px;
+}
+
+h1 {
+    
+    font-size: 60px;
+    margin: 20px;
     text-align: center;
+}
+
+#name {
+    top: 345px;
+    right: 650px;
+    
+}
+
+#port {
+    bottom: 300px;
+    right: 610px;
+}
+
+p {
+    font-style: italic;
+    font-size: 1.1em;
 }
